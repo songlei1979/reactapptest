@@ -1,5 +1,5 @@
 {
-  "name": "reactapptest",
+  "name": "reactaootest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +12,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "webpack --mode development src/index.js --output static/frontend/main.js",
-    "build": "webpack --mode production src/index.js --output static/frontend/main.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
