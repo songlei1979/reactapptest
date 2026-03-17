@@ -18,6 +18,10 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
+      -run:
+          name: "Install node js"
+          command: run: sudo apt-get update && sudo apt-get install nodejs npm -y
+      
       - run:
           name: "Install package"
           command: "npm install"
